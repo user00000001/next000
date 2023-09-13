@@ -16,5 +16,8 @@ const config: Config = {
     },
   },
   plugins: [],
+  corePlugins: {
+    preflight: false, // tailwind not cover self define css.
+  }
 }
 export default config
